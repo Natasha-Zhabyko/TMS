@@ -1,0 +1,109 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+.tabs__section {
+    width: 1170px;
+    height: 540px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.tabs__menu {
+    display: inline-block; 
+    padding: 5px 50px; 
+    position: relative;
+    border-bottom: none; 
+    cursor: pointer;
+}
+
+.tabs__menu input[type="radio"] { 
+    display: none; 
+}
+
+#tab-btn-1:checked ~ .tab-btn-1 {
+    border-radius: 5px 5px 0 0;
+    border: 1px solid #C6CBCD;
+}
+
+#tab-btn-1:checked ~ .tab-btn-1::before { 
+position: absolute;
+content: "";
+width: 182.8px;
+height: 5px;
+left: 0px;
+right: 0;
+bottom: -5px;
+background-color: white;
+}
+
+.tab__content {
+display: none;
+}
+
+#tab-btn-1:checked ~ #content-1,
+#tab-btn-2:checked ~ #content-2,
+#tab-btn-3:checked ~ #content-3 {
+display: block;
+}
+
+.tab__item {
+    display: inline-block; 
+    padding: 5px 50px; 
+    position: relative;
+    border: 1px solid #666; 
+    border-bottom: none; 
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+}
+
+.tab__content {
+    position: relative;
+    border: #C6CBCD 1px solid;
+    width: 1170px;
+    height: 501px;
+    box-sizing: border-box;
+}
+
+.tab__img {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.tab__text {
+    font-family: 'Raleway';
+    font-style: normal;
+    margin-left: 100px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    width: 570px;
+    height: 210px;
+}
+
+.tab__title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    margin-left: 100px;
+}
+
+.tab__button {
+    font-family: 'Open Sans';
+    position: absolute;
+    margin-left: 100px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background: #EC7979;
+    width: 270px;
+    height: 58px;
+    cursor: pointer;
+}
