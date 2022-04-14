@@ -138,7 +138,7 @@ a:hover {
     color: #333333;
     width: 360px;
     height: 90px;
-    padding: 45px 50px 40px;
+    padding: 38px 50px 0;
 }
 
 span {
@@ -159,8 +159,8 @@ span {
 input {
     width: 370px;
     border-bottom: 1px solid #BDBDBD;
-    padding-bottom: 30px;
-    color:#BDBDBD;;
+    padding: 30px 0px;
+    color:#BDBDBD;
 }
 
 .button__form {
@@ -171,4 +171,8 @@ input {
     font-family: 'Open Sans';
     font-size: 15px;
     color: #FFFFFF;
+}
+
+.social__media {
+    background: #F8EFEF;
 }
