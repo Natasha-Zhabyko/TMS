@@ -1,0 +1,174 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, ul, li,
+fieldset, form, label, input, menu, nav {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.header__content {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url(img/fon.png) center no-repeat;
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.5)), url(img/fon.png) center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5)), url(img/fon.png) center no-repeat;
+    background-repeat: repeat-x;
+    background-size: cover;
+}
+
+.navigation__header {
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    background: black;
+    margin-bottom: 200px;
+}
+
+.axit-logo {
+    padding: 0 110px;
+}
+
+.menu__header {
+    width: 570px;
+    height: 75px;
+    float: right;
+    padding-right: 170px;
+}
+
+.menu-main {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.menu__link {
+    color: #fff;
+}
+
+li {
+    list-style-type: none;
+}
+
+a { 
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.header__container {
+    display: flex;
+    justify-content: center;
+}
+
+.container__logo {
+    padding-right: 30px;
+}
+
+.img__header {
+    width: 270px;
+    height: 100px;
+    padding-bottom: 70px;
+}
+
+.header__title {
+    font-family: 'Raleway';
+    font-size: 48px;
+    line-height: 56px;
+    padding-bottom: 50px;
+    color: #FFFFFF;
+}
+
+.header__line {
+    width: 170px;
+    height: 0px;
+    border: none;
+    border-top: 1px solid white; 
+    margin-left: 0;
+    padding-bottom: 40px;
+}
+
+.header__subtitle {
+    font-family: 'Raleway';
+    font-size: 18px;
+    line-height: 21px;
+    padding-bottom: 40px;
+    color: #FFFFFF;
+}
+
+.header__button {
+    font-family: 'Open Sans';
+    height: 58px;
+    width: 270px;
+    font-size: 18px;
+    line-height: 25px;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    color:#FFFFFF;
+    border: 2px solid #FFFFFF;
+}
+
+.header__button:hover {
+    box-shadow: 0 0 12px #6633FF;
+    -moz-box-shadow: 0 0 12px #6633FF;
+    -o-box-shadow: 0 0 12px #6633FF;
+    -ms-box-shadow: 0 0 12px #6633FF;
+    -webkit-box-shadow: 0 0 12px #6633FF;
+}
+
+.form__header {
+    height: 450px;
+    width: 470px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.tatle__accaunt {
+    font-family: 'Open Sans';
+    font-size: 24px;
+    text-align: center;
+    color: #333333;
+    width: 360px;
+    height: 90px;
+    padding: 45px 50px 40px;
+}
+
+span {
+    color: #EC7979;
+}
+
+.forms__header {
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    padding: 0 50px 69px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+}
+
+input {
+    width: 370px;
+    border-bottom: 1px solid #BDBDBD;
+    padding-bottom: 30px;
+    color:#BDBDBD;;
+}
+
+.button__form {
+    width: 470px;
+    height: 60px;
+    background: #EC7979;
+    border-radius: 0px 0px 10px 10px;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    color: #FFFFFF;
+}
