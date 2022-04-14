@@ -164,7 +164,7 @@ input {
 }
 
 .button__form {
-    width: 470px;
+    width: 472px;
     height: 60px;
     background: #EC7979;
     border-radius: 0px 0px 10px 10px;
@@ -175,4 +175,29 @@ input {
 
 .social__media {
     background: #F8EFEF;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-social-media {
+    padding-left: 170px;
+}
+
+.social-media-title {
+    font-family: 'Open Sans';
+    font-size: 24px;
+    color: #333333;
+    padding-bottom: 18px;
+}
+
+.social-media-subtitle {
+    font-family: 'Raleway';
+    font-size: 18px;
+    color: #86878B;
+}
+
+.links__header {
+    display: flex;
+    justify-content: space-between;
 }
