@@ -71,6 +71,7 @@ fieldset, form, label, input, menu, nav {
 }
 
 .footer__content {
+    width: 1510px;
     background: #000000;
 }
 
