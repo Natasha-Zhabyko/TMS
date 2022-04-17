@@ -10,7 +10,6 @@ fieldset, form, label, input, menu, nav {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-    background: #F5F5F5;
 }
 
 .about__title {
@@ -43,7 +42,7 @@ fieldset, form, label, input, menu, nav {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding: 90px 170px;
+    padding: 50px 170px;
 }
 
 .form__item {
@@ -68,10 +67,11 @@ fieldset, form, label, input, menu, nav {
     width: 370px;
     height: 50px;
     margin: 0 570px 50px;
+    border:none;
 }
 
 .footer__content {
-    width: 1510px;
+    width: 100%;
     background: #000000;
 }
 
@@ -80,7 +80,7 @@ fieldset, form, label, input, menu, nav {
     justify-content:center;
 }
 
-img {
+.img__links {
     padding: 52px;
 }
 
@@ -88,5 +88,7 @@ img {
     font-family: 'Raleway';
     font-size: 18px;
     text-align: center;
-    margin-bottom: 50px;
+    padding-bottom: 27px;
+    color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.5);
 }

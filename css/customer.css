@@ -11,10 +11,9 @@ fieldset, form, label, input, menu, nav {
     vertical-align: baseline;
 }
 
-.section.about.title {
+.title__customers {
     font-family: 'Raleway';
     height: 80px;
-    font-style: normal;
     font-size: 36px;
     text-align: center;
     margin: 55px 0 0 0;
@@ -27,7 +26,7 @@ fieldset, form, label, input, menu, nav {
     border-top: 1px solid #EC7979; 
 }
 
-.section.about.subtitle {
+.subtitle__customers {
     font-family: 'Raleway';
     font-size: 18px;
     margin-top: 40px;
@@ -38,6 +37,7 @@ fieldset, form, label, input, menu, nav {
 .main__content {
     display:flex;
     justify-content: center;
+    flex-wrap:wrap;
     margin-bottom: 64px;
 }
 

@@ -3,10 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 
 .tabs__section {
-    width: 1170px;
-    height: 540px;
-    margin: 0 auto;
-    padding: 0 15px;
+    padding: 100px 170px;
 }
 
 .tabs__menu {
@@ -24,7 +21,8 @@
 
 #tab-btn-1:checked ~ .tab-btn-1 {
     border-radius: 5px 5px 0 0;
-    border: 1px solid #C6CBCD;
+    border: 1px #C6CBCD;
+    border-bottom: none;
 }
 
 #tab-btn-1:checked ~ .tab-btn-1::before { 
@@ -74,9 +72,7 @@ display: block;
 
 .tab__text {
     font-family: 'Raleway';
-    font-style: normal;
     margin-left: 100px;
-    font-weight: 400;
     font-size: 18px;
     line-height: 21px;
     width: 570px;
@@ -85,23 +81,17 @@ display: block;
 
 .tab__title {
     font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 700;
     font-size: 30px;
-    line-height: 41px;
     margin-left: 100px;
+    height: 124px;
+    padding-top: 60px;
 }
 
 .tab__button {
     font-family: 'Open Sans';
-    position: absolute;
     margin-left: 100px;
-    font-style: normal;
-    font-weight: 600;
     font-size: 18px;
-    line-height: 25px;
-    text-align: center;
-    text-transform: capitalize;
     color: #FFFFFF;
     background: #EC7979;
     width: 270px;

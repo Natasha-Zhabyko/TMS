@@ -1,0 +1,15 @@
+@import url(header.css);
+@import url(tabs.css);
+@import url(awesome.css);
+@import url(prycing.css);
+@import url(customer.css);
+@import url(design.css);
+@import url(footer.css);
+
+@media (max-width: 1054px) {
+
+}
+
+@media (max-width: 768px) {
+    
+}
