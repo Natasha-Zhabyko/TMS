@@ -42,9 +42,7 @@ display: none;
 
 #tab-btn-1:checked ~ #content-1,
 #tab-btn-2:checked ~ #content-2,
-#tab-btn-3:checked ~ #content-3 {
-display: block;
-}
+#tab-btn-3:checked ~ #content-3 {}
 
 .tab__item {
     display: inline-block; 
@@ -62,10 +60,11 @@ display: block;
     width: 1170px;
     height: 501px;
     box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
 }
 
 .tab__img {
-    position: absolute;
     right: 0;
     top: 0;
 }
@@ -81,10 +80,10 @@ display: block;
 
 .tab__title {
     font-family: 'Open Sans';
-    font-weight: 700;
     font-size: 30px;
     margin-left: 100px;
     height: 124px;
+    width: 570px;
     padding-top: 60px;
 }
 
@@ -97,4 +96,10 @@ display: block;
     width: 270px;
     height: 58px;
     cursor: pointer;
+}
+
+.container__img {
+    width: 470px;
+    height: 500px;
+    float: right;
 }

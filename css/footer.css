@@ -92,3 +92,9 @@ fieldset, form, label, input, menu, nav {
     color: #FFFFFF;
     color: rgba(255, 255, 255, 0.5);
 }
+
+textarea{
+    border: none;
+    font-family: 'Open Sans';
+    font-size: 14px;
+}
