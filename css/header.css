@@ -120,6 +120,7 @@ a:hover {
     border: 2px solid #FFFFFF;
     -webkit-transition: all 150ms ease-in-out;
     transition: all 150ms ease-in-out;
+    cursor: pointer;
 }
 
 .header__button:hover {
@@ -176,6 +177,7 @@ span {
     border:none;
     -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
     transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    cursor: pointer;
 }
 
 

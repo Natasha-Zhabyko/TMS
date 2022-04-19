@@ -41,7 +41,7 @@ fieldset, form, label, input, menu, nav {
     display: flex;
     flex-direction: row;
     padding: 50px 170px;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 input {
