@@ -27,7 +27,8 @@ fieldset, form, label, input, menu, nav {
     justify-content: space-between;
     height: 75px;
     background: black;
-    margin-bottom: 200px;
+    width: 100%;
+    position: fixed;
 }
 
 .axit-logo {
@@ -69,6 +70,7 @@ a:hover {
 .header__container {
     display: flex;
     justify-content: center;
+    padding-top: 200px;
 }
 
 .container__logo {
@@ -116,14 +118,12 @@ a:hover {
     background: rgba(0, 0, 0, 0.5);
     color:#FFFFFF;
     border: 2px solid #FFFFFF;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
 }
 
 .header__button:hover {
-    box-shadow: 0 0 12px #6633FF;
-    -moz-box-shadow: 0 0 12px #6633FF;
-    -o-box-shadow: 0 0 12px #6633FF;
-    -ms-box-shadow: 0 0 12px #6633FF;
-    -webkit-box-shadow: 0 0 12px #6633FF;
+    box-shadow: 0 0 10px 0 red inset, 0 0 10px 4px red;
 }
 
 .form__header {
@@ -166,13 +166,21 @@ span {
 }
 
 .button__form {
-    width: 472px;
+    width: 470px;
     height: 60px;
     background: #EC7979;
     border-radius: 0px 0px 10px 10px;
     font-family: 'Open Sans';
     font-size: 15px;
     color: #FFFFFF;
+    border:none;
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+
+.button__form:hover {
+    box-shadow: 0 0 40px 40px #e74c3c inset;
 }
 
 .social__media {

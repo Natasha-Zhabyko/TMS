@@ -58,7 +58,6 @@ fieldset, form, label, input, menu, nav {
     text-align: center;
     padding: 38px 0 37px 0;
     color: #86878B;
-    position: relative;
 }
 
 .feedback__customer::after {

@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
     <head> 
-        <meta charset="utf-8">
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,11 +16,11 @@
                     </div>
                     <div class="menu__header">
                     <ul class="menu-main">
-                        <li><a href="" class="menu__link">Features</a></li>
-                        <li><a href="" class="menu__link">About</a></li>
-                        <li><a href="" class="menu__link">Pricing</a></li>
-                        <li><a href="" class="menu__link">Reviews</a></li>
-                        <li><a href="" class="menu__link">Contact</a></li>
+                        <li><a href="#tabs" class="menu__link">Features</a></li>
+                        <li><a href="#awesome" class="menu__link">About</a></li>
+                        <li><a href="#pricing" class="menu__link">Pricing</a></li>
+                        <li><a href="#castomers" class="menu__link">Reviews</a></li>
+                        <li><a href="#contact" class="menu__link">Contact</a></li>
                     </ul>
                     </div>
                 </nav>
@@ -67,7 +66,7 @@
             </div>
         </section>
 
-        <section class="tabs__section">
+        <section class="tabs__section" id="tabs">
             <div class="tabs__menu">
                 <input class="input" type="radio" name="tab-btn" id="tab-btn-1" checked>
                 <label class="tab__item" for="tab-btn-1">TAB 1</label>
@@ -94,7 +93,7 @@
             </div>
         </section>
 
-        <section class="section all">
+        <section class="section all" id="awesome">
             <div class="section about wrapper">
                 <h2 class="title__awesome">WHY THIS IS AWESOME</h2>
             <hr class="section about line">
@@ -121,7 +120,7 @@
             </div>
         </section>
 
-        <section class="section pricing">
+        <section class="section pricing" id="pricing">
             <div class="section about wrapper">
                 <h2 class="title__pricing">PRICING OPTIONS</h2>
                 <hr class="section about line">
@@ -171,7 +170,7 @@
             </div>      
         </section>
 
-        <section class="section__customers">
+        <section class="section__customers" id="castomers">
             <div class="section about wrapper">
                 <h2 class="title__customers">WHAT OUR CUSTOMERS ARE SAYING</h2>
                 <hr class="section about line">
@@ -223,26 +222,19 @@
             </div>
         </section>
 
-        <section class="section__contact">
+        <section class="section__contact" id="contact">
             <div class="contact__content">
                 <h2 class="about__title">CONTACT US</h2>
                 <hr class="about__line">
                 <h5 class="about__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
                 <div class="form__container">
-                    <div class="form__item">
-                        <label for="user-name">Name</label>
-                        <input id="user-name" id="user-name">
+                    <div class="form__part" style="margin-right:20px;">
+                            <input id="user-name" id="user-name" placeholder="Name">
+                            <input type="email" id="user-emeil" placeholder="Email">
+                            <input type="password" id="user-password" placeholder="Password">
                     </div>
-                    <div class="form__item">
-                        <label for="user-email">Email</label>
-                        <input type="email" id="user-emeil">
-                    </div>
-                    <div class="form__item">
-                        <label for="user-password">Password</label>
-                        <input type="password" id="user-password">
-                    </div>
-                    <div class="form__item">
-                        <textarea class="textaria__footer" rows="8" cols="50" placeholder="Message"></textarea>
+                    <div class="form__part">
+                            <textarea class="textaria__footer" rows="8" cols="50" placeholder="Message"></textarea>
                     </div>
                 </div>
                 <button class="button__contact">Send Message</button>

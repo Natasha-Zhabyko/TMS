@@ -54,13 +54,11 @@ fieldset, form, label, input, menu, nav {
     font-size: 18px;
     line-height: 25px;
     color: #FFFFFF;
-    margin: 0 570px;
+    display: block;
+    margin: 0 auto;
+    transition: all 150ms ease-in-out;
 }
 
 .button__design:hover {
-    box-shadow: 0 0 12px #6633FF;
-    -moz-box-shadow: 0 0 12px #6633FF;
-    -o-box-shadow: 0 0 12px #6633FF;
-    -ms-box-shadow: 0 0 12px #6633FF;
-    -webkit-box-shadow: 0 0 12px #6633FF;
+    box-shadow: 0 0 10px 0 red inset, 0 0 10px 4px red;
 }
