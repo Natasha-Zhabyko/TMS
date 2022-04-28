@@ -46,10 +46,17 @@
 
 .tab__title {
     font-size: 24px;
-    margin-left: 100px;
     height: 124px;
     padding-top: 60px;
 }
+
+.tabs__menu {
+    display: inline-block; 
+    border-bottom: none; 
+    cursor: pointer;
+    border-radius:  5px 5px 0;
 }
+}
+
 
 @media (max-width: 768px) {}
