@@ -37,7 +37,6 @@ fieldset, form, label, input, menu, nav {
 .main__content {
     display:flex;
     justify-content: center;
-    flex-wrap:wrap;
     margin-bottom: 64px;
 }
 

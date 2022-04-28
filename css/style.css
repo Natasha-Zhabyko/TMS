@@ -6,10 +6,50 @@
 @import url(design.css);
 @import url(footer.css);
 
-@media (max-width: 1054px) {
+@media (max-width: 1024px) {
 
+.feedback__customer {
+    height: 105px;
+    background: #E2E2E2;
+    border-radius: 10px;
+    font-family: 'Raleway';
+    font-style: normal;
+    text-align: center;
+    padding: 38px 0 37px 0;
+    color: #86878B;
+    position:relative;
 }
 
-@media (max-width: 768px) {
-    
+.item__title {
+    width: 315px;
 }
+
+.item__price {
+    width: 315px;
+}
+
+.item__description {
+    width: 315px;
+}
+
+.item__space {
+    width: 315px;
+}
+
+.tab__text {
+    font-family: 'Raleway';
+    margin-left: 100px;
+    font-size: 18px;
+    line-height: 21px;
+    height: 210px;
+}
+
+.tab__title {
+    font-size: 24px;
+    margin-left: 100px;
+    height: 124px;
+    padding-top: 60px;
+}
+}
+
+@media (max-width: 768px) {}
