@@ -37,7 +37,6 @@ fieldset, form, label, input, menu, nav {
 }
 
 .form__container {
-    height: 270px;
     display: flex;
     flex-direction: row;
     padding: 50px 170px;

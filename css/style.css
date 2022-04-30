@@ -8,16 +8,187 @@
 
 @media (max-width: 1024px) {
 
-.feedback__customer {
+/*section header*/
+
+.img__header {
+    padding-bottom: 70px;
+    padding-left: 100px;
+}
+
+.menu__header {
+    padding-right: 20px;
+}
+
+.header__title {
+    font-size: 36px;
+    line-height: 42px;
+    padding: 0 0 50px 100px;
+}
+
+.header__line {
+    width: 115px;
+    margin-left: 100px; 
+}
+
+.header__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+    padding-bottom: 40px;
+    margin-left:100px;
+}
+
+.header__button {
+    height: 50px;
+    width: 183px;
+    font-size: 18px;
+    line-height: 25px;
+    margin-left:100px;
+}
+
+.form__header {
+    height: 450px;
+    width: 398px;
+    margin-right: 20px;
+}
+
+.tatle__accaunt {
+    font-size: 18px;
+    line-height: 25px;
+    width: 298px;
+    height: 90px;
+}
+
+.forms__header {
+    width: 298px;
+    padding: 0 50px 69px;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.input__header {
+    width: 298px;
+}
+
+.button__form {
+    width: 398px;
+    height: 60px;
+    border-radius: 0px 0px 10px 10px;
+    font-size: 15px;
+}
+
+.social__media {
     height: 105px;
-    background: #E2E2E2;
-    border-radius: 10px;
-    font-family: 'Raleway';
-    font-style: normal;
-    text-align: center;
-    padding: 38px 0 37px 0;
-    color: #86878B;
-    position:relative;
+}
+
+.about-social-media {
+    padding-left: 16px;
+}
+
+.social-media-title {
+    font-size: 18px;
+    padding: 13px 0;
+}
+
+.social-media-subtitle {
+    font-size: 14px;
+    width: 402px;
+}
+
+.links__header {
+    width: 575px;
+    padding: 40px 30px;
+}
+
+/*section tab*/
+
+.tab__content {
+    height: 386px;
+}
+
+.tab__title {
+    font-size: 24px;
+    height: 124px;
+    margin-right: 26px;
+    padding-top: 30px;
+    height: 89px;
+}
+
+.tab__text {
+    font-size: 14px;
+    line-height: 16px;
+    height: 112px;
+    margin-right: 26px;
+}
+
+.tab__img {
+    width: 398px;
+    height: 385px;
+}
+
+.tab__button {
+    margin: 50px 100px;
+    font-size: 18px;
+    width: 231px;
+    height: 58px;
+}
+
+/*section awesome*/
+
+.title__awesome {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom:60px;
+}
+
+.section.about.line {
+    width: 142px;
+    margin-top:0;
+    margin-bottom: 32px;
+}
+
+.seaction.about.subtitle {
+    font-size: 14px;
+    margin-bottom: 52px;
+}
+
+.title.content {
+    font-size: 18px;
+    height: 82px;
+}
+
+.subtitle.content {
+    font-size: 14px;
+}
+
+.item {
+    width: 318px;
+    height: 318px;
+    margin: 0 10px 0;
+}
+
+/*section pricing*/
+
+.title__pricing {
+    font-size: 24px;
+}
+
+.section.about.line {
+    width: 143px;
+}
+
+.subtitle__pricing {
+    font-size: 14px;
+    margin: 32px;
+}
+
+.content__pricing {
+    padding: 0 15px 80px;
+}
+
+.item__prasing {
+    width: 317px;
+    height: 452px;
+    margin: 0 10px 0;
 }
 
 .item__title {
@@ -36,27 +207,105 @@
     width: 315px;
 }
 
-.tab__text {
-    font-family: 'Raleway';
-    margin-left: 100px;
-    font-size: 18px;
-    line-height: 21px;
-    height: 210px;
-}
+/*section customers*/
 
-.tab__title {
+.title__customers {
+    height: 80px;
     font-size: 24px;
-    height: 124px;
-    padding-top: 60px;
+    margin: 55px 0 0 0;
 }
 
-.tabs__menu {
-    display: inline-block; 
-    border-bottom: none; 
-    cursor: pointer;
-    border-radius:  5px 5px 0;
-}
+.subtitle__customers {
+    font-size: 14px;
+    margin-top: 32px;
 }
 
+.item__customer {
+    width: 317px;
+    height: 309px;
+    margin: 32px 10px 0;
+}
+
+.feedback__customer {
+    font-size: 14px;
+}
+
+.img__customer {
+    margin: 66px 0 20px;
+}
+
+.name__customer {
+    font-size: 18px;
+}
+
+.position__customer {
+    font-size: 14px;
+}
+
+/*section design*/
+
+.section.design {
+    height: 358px;
+}
+
+.section.about.title {
+    font-size: 24px;
+    line-height: 28px;
+    padding: 50px 0;
+}
+
+.section.white.line {
+    width: 142px;
+}
+
+.section.about.subtitle {
+    font-size: 14px;
+    line-height: 16px;
+    padding: 32px 0;
+}
+
+.button__design {
+    width: 318px;
+    height: 58px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+/*section contact*/
+
+.about__title {
+    height: 80px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.about__line {
+    width: 144px;
+}
+
+.about__subtitle {
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+.form__container {
+    padding: 50px 16px;
+}
+
+.button__contact {
+    width: 318px;
+    height: 58px;
+}
+
+/*section footer*/
+
+.img__links {
+    padding: 40px;
+}
+
+.years {
+    font-size: 14px;
+}
+}
 
 @media (max-width: 768px) {}
