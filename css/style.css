@@ -308,4 +308,312 @@
 }
 }
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+
+/*section header*/
+
+.axit-logo {
+    padding: 0 20px 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+.menu__header{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: var(--black);
+    overflow: hidden;
+}
+
+.menu-main a{
+    display: block;
+    padding: 30px;
+    color: var(--white);
+}
+.menu-main a:hover{
+    background-color: var(--black);
+}
+.menu__header{
+    max-height: 0;
+    transition: max-height .5s ease-out;
+}
+
+.hamb{
+    cursor: pointer;
+    float: right;
+    padding: 40px 20px;
+}
+
+.hamb-line {
+    background: var(--white);
+    display: block;
+    height: 2px;
+    position: relative;
+    width: 24px;
+}
+
+.hamb-line::before,
+.hamb-line::after{
+    background: var(--white);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+.hamb-line::before{
+    top: 5px;
+}
+.hamb-line::after{
+    top: -5px;
+}
+
+.side-menu {
+    display: none;
+}
+
+.side-menu:checked ~ .menu__header {
+    max-height: 100%;
+}
+.side-menu:checked ~ .hamb .hamb-line {
+    background: transparent;
+}
+.side-menu:checked ~ .hamb .hamb-line::before {
+    transform: rotate(-45deg);
+    top:0;
+}
+.side-menu:checked ~ .hamb .hamb-line::after {
+    transform: rotate(45deg);
+    top:0;
+}
+
+.menu__header{
+    max-height: none;
+    top: 0;
+    position: relative;
+    float: right;
+    width: fit-content;
+}
+
+.menu-main li{
+    float: left;
+}
+.menu-main a:hover{
+    background-color: transparent;
+    color: var(--black);
+}
+
+.hamb{
+    display: none;
+}
+
+.header__container {
+    padding-top: 84px;
+    flex-wrap: wrap;
+}
+
+.img__header {
+    display: none;
+}
+
+.header__title {
+    font-size: 36px;
+    line-height: 42px;
+    padding: 15px 16px 43px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.header__line {
+    width: 134px;
+    padding-bottom: 40px;
+    display: block;
+    margin: auto;
+}
+
+.header__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+    padding-bottom: 40px;
+    text-align: center;
+    margin: 0 16px;
+}
+
+.paragraph {
+    display: none;
+}
+
+.header__button {
+    height: 50px;
+    width: 288px;
+    display: block;
+    margin-left: 16px;
+}
+
+.form__header {
+    height: 381px;
+    width: 288px;
+    margin-top: 50px;
+}
+
+.tatle__accaunt {
+    font-size: 14px;
+    width: 240px;
+    line-height: 19px;
+    height: 20px;
+    padding: 0 20px;
+    margin-top: 40px ;
+}
+
+.forms__header {
+    width: 240px;
+    padding: 0 20px 21px;
+}
+
+.input__header {
+    width: 240px;
+}
+
+.button__form {
+    width: 288px;
+    font-size: 15px;
+}
+
+/*section media*/
+
+.social__media {
+    height: 239px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-social-media {
+    display: block;
+    margin: auto;
+}
+
+.social-media-title {
+    text-align: center;
+}
+
+.social-media-subtitle {
+    text-align: center;
+    width: 270px;
+}
+
+.links__header {
+    margin: auto;
+}
+
+.header__links {
+    height: 20px;
+    width: 20px;
+}
+
+/*seaction tabs*/
+
+.tab__img {
+    display: none;
+}
+
+.tab__item {
+    padding: 6px 12px; 
+}
+
+.tab__content {
+    height: 431px;
+    width: 288px;
+}
+
+.tab__title {
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 24px;
+    text-align: center;
+    height: 80px;
+}
+
+.tab__text {
+    margin-left: 24px;
+    height: 240px;
+    text-align: center;
+}
+
+.tab__button {
+    margin-left: 100px;
+    width: 242px;
+    height: 50px;
+    display: block;
+    margin: auto;
+}
+
+/*section awesome*/
+
+.title__awesome {
+    font-size: 18px;
+    margin-bottom:50px;
+}
+
+.section.about.line {
+    width: 134px;
+}
+
+.seaction.about.subtitle {
+    font-size: 13px;
+}
+
+.main.content {
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 288px;
+    height: 318px;
+}
+
+/*section pricing*/
+
+.content__pricing {
+    flex-wrap: wrap;
+}
+
+.item__prasing {
+    padding: 40px 0;
+}
+
+
+/*section contact*/
+.form__container {
+    flex-wrap: wrap;
+}
+
+/*section design*/
+
+.button__design {
+    width: 287px;
+    height: 50px;
+}
+
+
+/*section footer*/
+
+textarea{
+    width: 286px;
+    height: 135px;
+    color: #BDBDBD;
+}
+
+.button__contact {
+    width: 288px;
+}
+
+.img__links {
+    height: 22px;
+    width: 22px;
+    padding: 10px;
+}
+}

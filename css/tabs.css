@@ -9,7 +9,6 @@
 }
 
 .tabs__menu {
-    display: inline-block; 
     padding: 5px 50px; 
     border-bottom: none; 
     cursor: pointer;

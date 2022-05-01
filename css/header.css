@@ -208,11 +208,12 @@ span {
     font-family: 'Raleway';
     font-size: 18px;
     color: #86878B;
+    width: 270px;
 }
 
 .links__header {
     display: flex;
     justify-content: space-between;
     width: 575px;
-    padding: 40px 100px;
+    padding: 0;
 }
