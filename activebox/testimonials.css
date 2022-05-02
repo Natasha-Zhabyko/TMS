@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, ul, li,
+fieldset, form, label, input, menu, nav {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.testimonials__content {
+    display: flex;
+    background: #5C3249;
+}
+
+.testimonials__part {
+    height: 490px;
+}
+
+.text__testimonials {
+    font-family: 'Cardo';
+    font-style: italic;
+    font-size: 36px;
+    line-height: 49px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding: 166px 170px 0 ;
+}
+
+.name__testimonials {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 0 170px;
+}

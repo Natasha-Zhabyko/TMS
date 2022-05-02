@@ -175,15 +175,15 @@ span {
     font-family: 'Open Sans';
     font-size: 15px;
     color: #FFFFFF;
-    border:none;
-    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
-    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
-    cursor: pointer;
+    border-color: #FF4343;
+    box-shadow: 0 0 40px 40px #FF4343 inset, 0 0 0 0 #FF4343;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
 }
 
 
 .button__form:hover {
-    box-shadow: 0 0 40px 40px #e74c3c inset;
+    box-shadow: 0 0 40px 40px FF4343 inset;
 }
 
 .social__media {

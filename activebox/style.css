@@ -1,0 +1,15 @@
+@import url(header.css);
+@import url(features.css);
+@import url(works.css);
+@import url(team.css);
+@import url(testimonials.css);
+@import url(download.css);
+@import url(footer.css);
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 768px) {
+    
+}

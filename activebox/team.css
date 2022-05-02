@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, ul, li,
+fieldset, form, label, input, menu, nav {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.content__team {
+    padding: 116px 170px;
+    display: flex;
+}
+
+.item__team {
+    padding:0 15px;
+}
+
+.name__team {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #2D3033;
+    padding-top:30px;
+}
+
+.post__team {
+    font-family: 'Raleway';
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FF4343;
+    padding-top:5px;
+}
+
+.text__team {
+    font-family: 'Raleway';
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #6C7279;
+    padding-top: 17px;
+}
+
+.link__team {
+    padding-top:37px;
+}
