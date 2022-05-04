@@ -8,6 +8,208 @@
 
 @media (max-width: 1024px) {
 
+/*section header*/
+
+.header__logo {
+    padding-left: 20px;
+}
+
+.menu__header {
+    width: 566px;
+    padding-right: 20px;
+}
+
+.header__line {
+    width: 984px;
+}
+
+.title__header {
+    font-size: 48px;
+    line-height: 56px;
+    padding: 150px 20px 0;
+}
+
+.subtitle__header {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.button__header {
+    Width:314px;
+}
+
+/*section features*/
+
+.content__features {
+    padding: 98px 0 80px 19px;
+    width: 984px;
+    height: 523.89px;
+}
+
+.item__features {
+    width: 315px;
+    height: 237px;
+}
+
+.img__features {
+    width: 85px;
+    height: 83.97px;
+}
+
+.name__features {
+    height: 60px;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.description__features {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+/*section works*/
+
+.img__works {
+    width: 251px;
+    height:230px; 
+}
+
+.title__work3 {
+    font-size: 18px;
+    line-height: 21px;
+    Width: 257px;
+    Height:40px;
+    top:74px;
+}
+
+.subtitle__work3 {
+    top:128px;
+    width: 257px;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+/*saction team*/
+
+.content__team {
+    padding: 78px 20px;
+}
+
+.item__team {
+    padding:0 10px;
+}
+
+.img__team {
+    height: 227px;
+    width: 227px;
+}
+
+.name__team {
+    font-size: 18px;
+    line-height: 21px;
+    padding-top: 25px;
+}
+
+.post__team {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.text__team {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.team__img {
+    padding-right: 5px;
+}
+
+.img__testimonials {
+    width: 502px;
+    height: 332px;
+}
+
+.testimonials__part {
+    height: 332px;
+}
+
+.text__testimonials {
+    font-size: 24px;
+    line-height: 32px;
+    padding: 47px 104px 0 88px;
+}
+
+.name__testimonials {
+    font-size: 12px;
+    line-height: 14px;
+    padding: 0 90px;
+}
+
+.controls {
+    padding-top: 330px;
+}
+
+/*section downloadd*/
+
+.title__download {
+    font-size: 24px;
+    line-height: 28px;
+    padding-top: 116px;
+}
+
+.subtitle__download {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.button__download {
+    width: 313px;
+    font-size: 18px;
+    line-height: 21px;
+    display: block;
+    margin: auto;
+}
+
+.content__download {
+    height: 390px;
+}
+
+/*section footer*/
+
+.footer__content {
+    height: 169px;
+}
+
+.item__footer {
+    padding-top: 46px;
+    margin: 0 20px;
+}
+
+.tatle__footer {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.adress {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.text__about {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.footer__footer {
+    height: 60px;
+}
+
+.yers {
+    font-size: 14px;
+    line-height: 16px;
+    padding: 14px 355px;
+}
+
 }
 
 @media (max-width: 768px) {

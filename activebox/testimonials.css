@@ -39,3 +39,72 @@ fieldset, form, label, input, menu, nav {
     color: #FFFFFF;
     padding: 0 170px;
 }
+
+.testimonials__content > input {
+	display: none;
+}
+
+.testimonials__content .controls {
+	left: 50%;
+	margin-left: -98px;
+	position: absolute;
+}
+
+.testimonials__content label {
+	cursor: pointer;
+	display: inline-block;
+	height: 8px;
+	margin: 25px 12px 0 16px;
+	position: relative;
+	width: 8px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.testimonials__content label:after {
+	border: 1px solid #7E5D6F;
+	content: " ";
+	display: block;
+	height: 12px;
+	left: -3px;
+	position: absolute;
+	top: -3px;
+	width: 12px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.controls {
+    padding-top: 500px;
+}
+
+.testimonials__content label {
+	cursor: pointer;
+	display: inline-block;
+	height: 8px;
+	margin: 25px 12px 0 16px;
+	position: relative;
+	width: 8px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-transition: background ease-in-out .5s;
+	-moz-transition: background ease-in-out .5s;
+	-o-transition: background ease-in-out .5s;
+	transition: background ease-in-out .5s;
+    border: none;
+}
+
+.testimonials__content label:hover, 
+#slide1:checked ~ .controls label:nth-of-type(1),
+#slide2:checked ~ .controls label:nth-of-type(2),
+#slide3:checked ~ .controls label:nth-of-type(3),
+#slide4:checked ~ .controls label:nth-of-type(4),
+#slide5:checked ~ .controls label:nth-of-type(5) {
+	background: #7E5D6F;;
+}
