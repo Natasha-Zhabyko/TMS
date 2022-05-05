@@ -13,11 +13,8 @@ fieldset, form, label, input, menu, nav {
 }
 
 .content__features {
-    width: 1170px;
-    height: 717px;
     display: flex;
-    padding: 116px 170px;
-    align-items: stretch;
+    padding: 140px 170px;
     justify-content: space-between;
     flex-wrap: wrap;
 }

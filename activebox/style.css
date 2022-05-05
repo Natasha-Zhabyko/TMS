@@ -42,8 +42,6 @@
 
 .content__features {
     padding: 98px 0 80px 19px;
-    width: 984px;
-    height: 523.89px;
 }
 
 .item__features {
@@ -92,7 +90,7 @@
 /*saction team*/
 
 .content__team {
-    padding: 78px 20px;
+    padding: 78px 15px;
 }
 
 .item__team {
@@ -213,5 +211,145 @@
 }
 
 @media (max-width: 768px) {
-    
+
+/*section header*/
+
+
+.header__line {
+    display: none;
+}
+
+.title__header {
+    font-size: 36px;
+    line-height: 42px;
+    padding-top: 106px;
+}
+
+.subtitle__header {
+    font-size: 14px;
+    line-height: 16px;
+    padding: 30px 20px 50px;
+}
+
+.button__header {
+    width: 279px;
+    height: 58px;
+}
+
+/*section features*/
+
+.content__features {
+    padding: 60px 20px;
+}
+
+.item__features {
+    width: 279.84px;
+    height: 222.53px;
+}
+
+.img__features {
+    height: 75px;
+    width: 75px;
+}
+
+.name__features {
+    height:53px;
+}
+
+.description__features {
+    margin-top: 0;
+}
+
+/*section works*/
+
+.img__works {
+    width: 160px;
+    height: 140px;
+}
+
+.title__work3 {
+    width: 160px;
+    height: 25px;
+    top:46px;
+}
+
+.subtitle__work3 {
+    top: 76px;
+    width: 160px;
+}
+
+/*section team*/
+
+.content__team {
+    flex-wrap: wrap;
+}
+
+.item__team {
+    padding:25px 15px;
+}
+
+/*section testimonials*/
+
+.img__testimonials {
+    width: 320px;
+    height: 212px;
+}
+
+.testimonials__content {
+    flex-wrap: wrap;
+    height: 538px;
+}
+
+.testimonials__part {
+    height: 220px;
+}
+
+.text__testimonials {
+    padding: 0 20px ;
+}
+
+.name__testimonials {
+    padding: 0 20px;
+}
+
+.controls {
+    padding-top: 540px;
+}
+
+/*section download*/
+
+.title__download {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.subtitle__download {
+    font-size: 13px;
+    line-height: 15px;
+    padding: 0 20px 15px;
+}
+
+.button__download {
+    Width: 278px;
+    Height: 77px;
+}
+
+/*section footer*/
+
+.footer__content {
+    flex-wrap: wrap;
+    height: 540px;
+}
+
+.yers {
+    padding: 29px 20px;
+}
+
+.item__footer {
+    padding-top:30px;
+}
+
+.footer__footer {
+    height: 90px;
+}
 }
